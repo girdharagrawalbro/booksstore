@@ -1,0 +1,17 @@
+{
+  "name": "bookstore",
+  "version": "1.1",
+  "description": "backend of bookstore",
+  "main": "index.js",
+  "repository": "none",
+  "author": "Girdhar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  }
+}
