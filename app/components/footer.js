@@ -1,6 +1,6 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="py-4 text-start bg-light">
     <div className="d-flex justify-content-between px-5">
@@ -53,4 +53,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

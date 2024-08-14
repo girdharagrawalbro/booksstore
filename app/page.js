@@ -1,27 +1,19 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-import Link from "next/link"
-
 export default function Home() {
   return (
     <>
-    <Header />
-    
       <section className='text-bg-dark align-items-center d-flex px-5 section mt-5'>
         <div className='w-100 d-flex align-items-center justify-content-between px-5'>
           <div className='gap-2 d-flex flex-column align-items-start'>
-            <h1 className="fw-bold h1 display-3">Discover Your Next <br/> Great Read</h1>
+            <h1 className="fw-bold h1 display-3">Discover Your Next <br /> Great Read</h1>
             <h6 className="text-secondary lead">
-              Explore our curated selection of the latest book releases and <br/> find your perfect read.
+              Explore our curated selection of the latest book releases and <br /> find your perfect read.
             </h6>
             <button className='btn text-bg-light'>
               View Book Details
             </button>
           </div>
           <div>
-            <img className="main-img" alt='img'src="https://images.pexels.com/photos/1148399/pexels-photo-1148399.jpeg?cs=srgb&dl=background-book-stack-books-1148399.jpg&fm=jpg"/>
+            <img className="main-img" alt='img' src="https://images.pexels.com/photos/1148399/pexels-photo-1148399.jpeg?cs=srgb&dl=background-book-stack-books-1148399.jpg&fm=jpg" />
           </div>
         </div>
       </section>
@@ -64,7 +56,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer/>
     </>
   );
 }

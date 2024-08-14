@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "next/link"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = ({ admin }) => {
   return (
