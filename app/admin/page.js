@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from "../components/header"
-import Footer from "../components/footer"
 
 const Admin = () => {
     return (
         <>
-            <Header admin="false" />
+      
             <section className="bg-white align-items-center mt-5">
                 <div className="shadow py-3 px-4 w-50 mx-auto">
                     <h4 className="fw-bold">Admin Login</h4>
@@ -62,8 +60,7 @@ const Admin = () => {
                 </div>
 
             </section>
-            <Footer />
-        </>
+         </>
     )
 }
 

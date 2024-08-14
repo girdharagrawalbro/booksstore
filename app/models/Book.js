@@ -2,6 +2,9 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const BookSchema = new Schema({
+  cover:{
+    type: String,
+  },
   title: {
     type: String,
     required: true,
