@@ -28,20 +28,7 @@ const Header = ({ admin }) => {
           </div>
         </div>
         <div className="align-items-center">
-          {
-            admin === "true" ?
 
-              <ul className="d-flex text-dark gap-5 align-items-center mb-0">
-                <li><Link className="text-dark text-decoration-none" href='/'>Dashboard
-                </Link></li>
-                <li><a className="text-dark text-decoration-none" href='/#new'>Books
-                </a></li>
-                <li><a className="text-dark text-decoration-none" href='/#categories'>Orders
-                </a></li>
-                <li><Link className="text-dark text-decoration-none" href='/about'>Customers</Link></li>
-                <li><Link className="text-dark text-decoration-none" href='/contact'>Reports</Link></li>
-              </ul>
-              :
 
               <ul className="d-flex text-dark gap-5 align-items-center mb-0">
                 <li><Link className="text-dark text-decoration-none" href='/'>Home
@@ -54,7 +41,7 @@ const Header = ({ admin }) => {
                 <li><Link className="text-dark text-decoration-none" href='/contact'>Contact</Link></li>
               </ul>
 
-          }
+          
 
         </div>
         <div className="d-flex gap-2 align-items-center">
